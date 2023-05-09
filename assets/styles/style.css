@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+img {
+    max-width: 100%;
+}
+#slider__image {
+    width: 300px;
+    margin: 0 50px 30px;
+}
+.title{
+    text-align: center;
+}
+.button-box{
+    display: flex;
+    justify-content: space-between;
+}
+.button{
+    width: 150px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
